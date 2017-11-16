@@ -1,0 +1,10 @@
+{
+	"dbname": "notes",
+	"username": "root",
+	"password": "c00lguy",
+	"params": {
+		"host": "localhost",
+		"port": 3306,
+		"dialect": "mysql"
+	}
+}

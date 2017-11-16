@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "description": "notes application",
+  "main": "app.js",
+  "authors": [
+    "Javid"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cool",
+    "notes"
+  ],
+  "homepage": "www.lumialis.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}

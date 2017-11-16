@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB36EBE1E9C2FDA0054C9A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EBD1E9C2FDA0054C9A9 /* AppDelegate.m */; };
+		DEB36EC41E9C2FDA0054C9A9 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB36EC21E9C2FDA0054C9A9 /* main.storyboard */; };
+		DEB36EC61E9C2FDA0054C9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB36EC51E9C2FDA0054C9A9 /* Assets.xcassets */; };
+		DEB36EC91E9C2FDA0054C9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB36EC71E9C2FDA0054C9A9 /* LaunchScreen.storyboard */; };
+		DEB36ED41E9C2FDA0054C9A9 /* SendWordNowAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36ED31E9C2FDA0054C9A9 /* SendWordNowAppTests.m */; };
+		DEB36EDF1E9C2FDA0054C9A9 /* SendWordNowAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EDE1E9C2FDA0054C9A9 /* SendWordNowAppUITests.m */; };
+		DEB36EEE1E9C329E0054C9A9 /* ZooAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EED1E9C329E0054C9A9 /* ZooAnimals.m */; };
+		DEB36EF11E9C38AF0054C9A9 /* ZooTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EF01E9C38AF0054C9A9 /* ZooTableViewController.m */; };
+		DEB36EF31E9C576C0054C9A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EF21E9C576C0054C9A9 /* main.m */; };
+		DEB36EF61E9C7D490054C9A9 /* MammalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EF51E9C7D490054C9A9 /* MammalsViewController.m */; };
+		DEB36EF91E9C7D5C0054C9A9 /* BirdsAndFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB36EF81E9C7D5C0054C9A9 /* BirdsAndFishViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB36ED01E9C2FDA0054C9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB36EAE1E9C2FDA0054C9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB36EB51E9C2FDA0054C9A9;
+			remoteInfo = SendWordNowApp;
+		};
+		DEB36EDB1E9C2FDA0054C9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB36EAE1E9C2FDA0054C9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB36EB51E9C2FDA0054C9A9;
+			remoteInfo = SendWordNowApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEB36EB61E9C2FDA0054C9A9 /* SendWordNowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendWordNowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB36EBC1E9C2FDA0054C9A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEB36EBD1E9C2FDA0054C9A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEB36EC31E9C2FDA0054C9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
+		DEB36EC51E9C2FDA0054C9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB36EC81E9C2FDA0054C9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB36ECA1E9C2FDA0054C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB36ECF1E9C2FDA0054C9A9 /* SendWordNowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendWordNowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB36ED31E9C2FDA0054C9A9 /* SendWordNowAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendWordNowAppTests.m; sourceTree = "<group>"; };
+		DEB36ED51E9C2FDA0054C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB36EDA1E9C2FDA0054C9A9 /* SendWordNowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendWordNowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB36EDE1E9C2FDA0054C9A9 /* SendWordNowAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendWordNowAppUITests.m; sourceTree = "<group>"; };
+		DEB36EE01E9C2FDA0054C9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB36EEC1E9C329E0054C9A9 /* ZooAnimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZooAnimals.h; path = ../ZooAnimals.h; sourceTree = "<group>"; };
+		DEB36EED1E9C329E0054C9A9 /* ZooAnimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZooAnimals.m; path = ../ZooAnimals.m; sourceTree = "<group>"; };
+		DEB36EEF1E9C38AF0054C9A9 /* ZooTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooTableViewController.h; sourceTree = "<group>"; };
+		DEB36EF01E9C38AF0054C9A9 /* ZooTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooTableViewController.m; sourceTree = "<group>"; };
+		DEB36EF21E9C576C0054C9A9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEB36EF41E9C7D490054C9A9 /* MammalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MammalsViewController.h; sourceTree = "<group>"; };
+		DEB36EF51E9C7D490054C9A9 /* MammalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MammalsViewController.m; sourceTree = "<group>"; };
+		DEB36EF71E9C7D5C0054C9A9 /* BirdsAndFishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdsAndFishViewController.h; sourceTree = "<group>"; };
+		DEB36EF81E9C7D5C0054C9A9 /* BirdsAndFishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdsAndFishViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB36EB31E9C2FDA0054C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ECC1E9C2FDA0054C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ED71E9C2FDA0054C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB36EAD1E9C2FDA0054C9A9 = {
+			isa = PBXGroup;
+			children = (
+				DEB36EB81E9C2FDA0054C9A9 /* SendWordNowApp */,
+				DEB36ED21E9C2FDA0054C9A9 /* SendWordNowAppTests */,
+				DEB36EDD1E9C2FDA0054C9A9 /* SendWordNowAppUITests */,
+				DEB36EB71E9C2FDA0054C9A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB36EB71E9C2FDA0054C9A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB36EB61E9C2FDA0054C9A9 /* SendWordNowApp.app */,
+				DEB36ECF1E9C2FDA0054C9A9 /* SendWordNowAppTests.xctest */,
+				DEB36EDA1E9C2FDA0054C9A9 /* SendWordNowAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB36EB81E9C2FDA0054C9A9 /* SendWordNowApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEB36EEC1E9C329E0054C9A9 /* ZooAnimals.h */,
+				DEB36EED1E9C329E0054C9A9 /* ZooAnimals.m */,
+				DEB36EEF1E9C38AF0054C9A9 /* ZooTableViewController.h */,
+				DEB36EF01E9C38AF0054C9A9 /* ZooTableViewController.m */,
+				DEB36EBC1E9C2FDA0054C9A9 /* AppDelegate.h */,
+				DEB36EBD1E9C2FDA0054C9A9 /* AppDelegate.m */,
+				DEB36EC21E9C2FDA0054C9A9 /* main.storyboard */,
+				DEB36EF21E9C576C0054C9A9 /* main.m */,
+				DEB36EC51E9C2FDA0054C9A9 /* Assets.xcassets */,
+				DEB36EC71E9C2FDA0054C9A9 /* LaunchScreen.storyboard */,
+				DEB36ECA1E9C2FDA0054C9A9 /* Info.plist */,
+				DEB36EF41E9C7D490054C9A9 /* MammalsViewController.h */,
+				DEB36EF51E9C7D490054C9A9 /* MammalsViewController.m */,
+				DEB36EF71E9C7D5C0054C9A9 /* BirdsAndFishViewController.h */,
+				DEB36EF81E9C7D5C0054C9A9 /* BirdsAndFishViewController.m */,
+			);
+			path = SendWordNowApp;
+			sourceTree = "<group>";
+		};
+		DEB36ED21E9C2FDA0054C9A9 /* SendWordNowAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB36ED31E9C2FDA0054C9A9 /* SendWordNowAppTests.m */,
+				DEB36ED51E9C2FDA0054C9A9 /* Info.plist */,
+			);
+			path = SendWordNowAppTests;
+			sourceTree = "<group>";
+		};
+		DEB36EDD1E9C2FDA0054C9A9 /* SendWordNowAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB36EDE1E9C2FDA0054C9A9 /* SendWordNowAppUITests.m */,
+				DEB36EE01E9C2FDA0054C9A9 /* Info.plist */,
+			);
+			path = SendWordNowAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB36EB51E9C2FDA0054C9A9 /* SendWordNowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB36EE31E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowApp" */;
+			buildPhases = (
+				DEB36EB21E9C2FDA0054C9A9 /* Sources */,
+				DEB36EB31E9C2FDA0054C9A9 /* Frameworks */,
+				DEB36EB41E9C2FDA0054C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendWordNowApp;
+			productName = SendWordNowApp;
+			productReference = DEB36EB61E9C2FDA0054C9A9 /* SendWordNowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB36ECE1E9C2FDA0054C9A9 /* SendWordNowAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB36EE61E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowAppTests" */;
+			buildPhases = (
+				DEB36ECB1E9C2FDA0054C9A9 /* Sources */,
+				DEB36ECC1E9C2FDA0054C9A9 /* Frameworks */,
+				DEB36ECD1E9C2FDA0054C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB36ED11E9C2FDA0054C9A9 /* PBXTargetDependency */,
+			);
+			name = SendWordNowAppTests;
+			productName = SendWordNowAppTests;
+			productReference = DEB36ECF1E9C2FDA0054C9A9 /* SendWordNowAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEB36ED91E9C2FDA0054C9A9 /* SendWordNowAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB36EE91E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowAppUITests" */;
+			buildPhases = (
+				DEB36ED61E9C2FDA0054C9A9 /* Sources */,
+				DEB36ED71E9C2FDA0054C9A9 /* Frameworks */,
+				DEB36ED81E9C2FDA0054C9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB36EDC1E9C2FDA0054C9A9 /* PBXTargetDependency */,
+			);
+			name = SendWordNowAppUITests;
+			productName = SendWordNowAppUITests;
+			productReference = DEB36EDA1E9C2FDA0054C9A9 /* SendWordNowAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB36EAE1E9C2FDA0054C9A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SendWordNow;
+				TargetAttributes = {
+					DEB36EB51E9C2FDA0054C9A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LCVQVPAT24;
+						ProvisioningStyle = Automatic;
+					};
+					DEB36ECE1E9C2FDA0054C9A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEB36EB51E9C2FDA0054C9A9;
+					};
+					DEB36ED91E9C2FDA0054C9A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEB36EB51E9C2FDA0054C9A9;
+					};
+				};
+			};
+			buildConfigurationList = DEB36EB11E9C2FDA0054C9A9 /* Build configuration list for PBXProject "SendWordNowApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB36EAD1E9C2FDA0054C9A9;
+			productRefGroup = DEB36EB71E9C2FDA0054C9A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB36EB51E9C2FDA0054C9A9 /* SendWordNowApp */,
+				DEB36ECE1E9C2FDA0054C9A9 /* SendWordNowAppTests */,
+				DEB36ED91E9C2FDA0054C9A9 /* SendWordNowAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB36EB41E9C2FDA0054C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB36EC91E9C2FDA0054C9A9 /* LaunchScreen.storyboard in Resources */,
+				DEB36EC61E9C2FDA0054C9A9 /* Assets.xcassets in Resources */,
+				DEB36EC41E9C2FDA0054C9A9 /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ECD1E9C2FDA0054C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ED81E9C2FDA0054C9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB36EB21E9C2FDA0054C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB36EEE1E9C329E0054C9A9 /* ZooAnimals.m in Sources */,
+				DEB36EF91E9C7D5C0054C9A9 /* BirdsAndFishViewController.m in Sources */,
+				DEB36EF61E9C7D490054C9A9 /* MammalsViewController.m in Sources */,
+				DEB36EBE1E9C2FDA0054C9A9 /* AppDelegate.m in Sources */,
+				DEB36EF31E9C576C0054C9A9 /* main.m in Sources */,
+				DEB36EF11E9C38AF0054C9A9 /* ZooTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ECB1E9C2FDA0054C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB36ED41E9C2FDA0054C9A9 /* SendWordNowAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB36ED61E9C2FDA0054C9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB36EDF1E9C2FDA0054C9A9 /* SendWordNowAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB36ED11E9C2FDA0054C9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB36EB51E9C2FDA0054C9A9 /* SendWordNowApp */;
+			targetProxy = DEB36ED01E9C2FDA0054C9A9 /* PBXContainerItemProxy */;
+		};
+		DEB36EDC1E9C2FDA0054C9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB36EB51E9C2FDA0054C9A9 /* SendWordNowApp */;
+			targetProxy = DEB36EDB1E9C2FDA0054C9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB36EC21E9C2FDA0054C9A9 /* main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB36EC31E9C2FDA0054C9A9 /* Base */,
+			);
+			name = main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB36EC71E9C2FDA0054C9A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB36EC81E9C2FDA0054C9A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB36EE11E9C2FDA0054C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB36EE21E9C2FDA0054C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB36EE41E9C2FDA0054C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCVQVPAT24;
+				INFOPLIST_FILE = SendWordNowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEB36EE51E9C2FDA0054C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCVQVPAT24;
+				INFOPLIST_FILE = SendWordNowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEB36EE71E9C2FDA0054C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SendWordNowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendWordNowApp.app/SendWordNowApp";
+			};
+			name = Debug;
+		};
+		DEB36EE81E9C2FDA0054C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SendWordNowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendWordNowApp.app/SendWordNowApp";
+			};
+			name = Release;
+		};
+		DEB36EEA1E9C2FDA0054C9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SendWordNowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendWordNowApp;
+			};
+			name = Debug;
+		};
+		DEB36EEB1E9C2FDA0054C9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SendWordNowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendwordnow.SendWordNowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendWordNowApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB36EB11E9C2FDA0054C9A9 /* Build configuration list for PBXProject "SendWordNowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB36EE11E9C2FDA0054C9A9 /* Debug */,
+				DEB36EE21E9C2FDA0054C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB36EE31E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB36EE41E9C2FDA0054C9A9 /* Debug */,
+				DEB36EE51E9C2FDA0054C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB36EE61E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB36EE71E9C2FDA0054C9A9 /* Debug */,
+				DEB36EE81E9C2FDA0054C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB36EE91E9C2FDA0054C9A9 /* Build configuration list for PBXNativeTarget "SendWordNowAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB36EEA1E9C2FDA0054C9A9 /* Debug */,
+				DEB36EEB1E9C2FDA0054C9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB36EAE1E9C2FDA0054C9A9 /* Project object */;
+}

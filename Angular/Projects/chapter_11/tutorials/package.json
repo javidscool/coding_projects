@@ -1,0 +1,23 @@
+{
+  "name": "angular2-redux-tutorial",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nate Murray <nate@fullstack.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "3.3.0"
+  },
+  "dependencies": {
+	"@angular/core": "4.3.2",
+	"core-js": "2.4.1",
+	"zone.js": "0.8.12",
+    "redux": "3.5.2",
+	"@ngrx/effects": "^2.0.4", 
+	"@ngrx/store": "^2.2.3",
+	"@ngrx/core": "^1.2.0",
+	"rxjs": "5.4.2",
+	"typescript": "2.4.1",
+	"ts-helpers": "1.1.2"
+  }
+}

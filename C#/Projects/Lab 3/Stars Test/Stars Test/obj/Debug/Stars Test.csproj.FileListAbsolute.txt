@@ -1,0 +1,8 @@
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\bin\Debug\Stars Test.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\bin\Debug\Stars Test.pdb
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\Stars_Test.Form1.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\Stars_Test.Properties.Resources.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\Stars Test.csproj.GenerateResource.Cache
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\Stars Test.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Stars Test\Stars Test\obj\Debug\Stars Test.pdb

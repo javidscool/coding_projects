@@ -1,0 +1,22 @@
+{
+  "name": "file-upload-bower",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Javid Shamloo <javid@homicidalrabbit.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "chart.js": "^2.7.0"
+  }
+}

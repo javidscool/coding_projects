@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2533681C6715DF0084FB06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2533671C6715DF0084FB06 /* main.swift */; };
+		DE25336F1C6715F10084FB06 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25336E1C6715F10084FB06 /* Person.swift */; };
+		DE2533731C6716FD0084FB06 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2533721C6716FD0084FB06 /* Asset.swift */; };
+		DE2533751C671A4F0084FB06 /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2533741C671A4F0084FB06 /* Accountant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE2533621C6715DF0084FB06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE2533641C6715DF0084FB06 /* ClinicalAssets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClinicalAssets; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2533671C6715DF0084FB06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DE25336E1C6715F10084FB06 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		DE2533721C6716FD0084FB06 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		DE2533741C671A4F0084FB06 /* Accountant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2533611C6715DF0084FB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE25335B1C6715DF0084FB06 = {
+			isa = PBXGroup;
+			children = (
+				DE2533661C6715DF0084FB06 /* ClinicalAssets */,
+				DE2533651C6715DF0084FB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2533651C6715DF0084FB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533641C6715DF0084FB06 /* ClinicalAssets */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2533661C6715DF0084FB06 /* ClinicalAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DE2533671C6715DF0084FB06 /* main.swift */,
+				DE25336E1C6715F10084FB06 /* Person.swift */,
+				DE2533741C671A4F0084FB06 /* Accountant.swift */,
+				DE2533721C6716FD0084FB06 /* Asset.swift */,
+			);
+			path = ClinicalAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2533631C6715DF0084FB06 /* ClinicalAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25336B1C6715DF0084FB06 /* Build configuration list for PBXNativeTarget "ClinicalAssets" */;
+			buildPhases = (
+				DE2533601C6715DF0084FB06 /* Sources */,
+				DE2533611C6715DF0084FB06 /* Frameworks */,
+				DE2533621C6715DF0084FB06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClinicalAssets;
+			productName = ClinicalAssets;
+			productReference = DE2533641C6715DF0084FB06 /* ClinicalAssets */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE25335C1C6715DF0084FB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BigNerdRanch;
+				TargetAttributes = {
+					DE2533631C6715DF0084FB06 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = DE25335F1C6715DF0084FB06 /* Build configuration list for PBXProject "ClinicalAssets" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE25335B1C6715DF0084FB06;
+			productRefGroup = DE2533651C6715DF0084FB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2533631C6715DF0084FB06 /* ClinicalAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2533601C6715DF0084FB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2533731C6716FD0084FB06 /* Asset.swift in Sources */,
+				DE25336F1C6715F10084FB06 /* Person.swift in Sources */,
+				DE2533681C6715DF0084FB06 /* main.swift in Sources */,
+				DE2533751C671A4F0084FB06 /* Accountant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE2533691C6715DF0084FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE25336A1C6715DF0084FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE25336C1C6715DF0084FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE25336D1C6715DF0084FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE25335F1C6715DF0084FB06 /* Build configuration list for PBXProject "ClinicalAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2533691C6715DF0084FB06 /* Debug */,
+				DE25336A1C6715DF0084FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25336B1C6715DF0084FB06 /* Build configuration list for PBXNativeTarget "ClinicalAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25336C1C6715DF0084FB06 /* Debug */,
+				DE25336D1C6715DF0084FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE25335C1C6715DF0084FB06 /* Project object */;
+}
