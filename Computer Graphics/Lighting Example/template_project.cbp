@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="template_project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\template\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; package" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package_source">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; package_source" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="runtemplate">
+         <Option output="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/runtemplate-Linux-x86_64-Debug" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/src" />
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/depends" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; runtemplate" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="runtemplate/fast">
+         <Option output="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/runtemplate-Linux-x86_64-Debug" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/src" />
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/depends" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; runtemplate/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="template">
+         <Option output="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/lib/libtemplate_d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/src" />
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/depends" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; template" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="template/fast">
+         <Option output="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/lib/libtemplate_d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/src" />
+            <Add directory="/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/depends" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; template/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/javid/Classes/Soaper/trunk/examples/javid_final/build/src/template/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/ScreenSpaceQuad.cpp">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/ShooterCamera.cc">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/aitMain.cpp">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/skybox.cc">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/transformations.cc">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/ScreenSpaceQuad.h">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/ScreenSpaceQuad.tcc">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/ShooterCamera.h">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/skybox.h">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/transformations.h">
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/template_project-settings.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/javid/Classes/Soaper/trunk/examples/javid_final/src/template/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\template\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
