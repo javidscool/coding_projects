@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset204 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww17720\viewh20380\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Application Exercise Requirements\
+\
+Short description:\
+	In an Objective-C storyboard based app\'85\
+	Create a table view controller based app.\
+	Read the data from a singleton (NSDictionary) and use that to populate the TableView. \'a0Please make it multi section, multi row with section titles.\
+	Allow the user to tap on a cell and navigate to another view controller and display the item tapped on in a UILabel\
+	A tap on a cell in section 0 should bring the user to a different view controller than a tap on a cell in section 1 and 2.\
+	Please put titles on each of the screens.\
+\
+\
+\
+Detailed description:\
+	Create a UITableView application which loads display data from an NSDictionary in a singleton class.\
+	The application should have 3 sections of data to display within the table view.\
+		Any hierarchy of data is fine.   \
+\
+	Each section of data should contain entries that contain the row data to display within the UITableView.\
+\
+	When a row cell is tapped on, the screen should segue to another view controller class and display the data.\
+	When a row cell is tapped on, the indexPath of the tapped cell should be saved within the data singleton.\
+\
+	A tap on a cell of a each section should \ul segue\ulnone  to a specific view controller for that section.\
+	A tap on a cell in section 0 should bring the user to a different view controller than a tap on a cell in section 1 and 2. \'a0\
+		- To keep this simple, each separate destination view controller class can differ simply by setting the background top level view to a different color.\
+\
+	The destination view controllers should load the data from the dictionary within the data singleton based on the stored indexPath and display it within a UILabel.\
+	Please add titles to each screen.\
+	It is implied that you will be using a UINavigationController set within the storyboard, not with code.\
+\
+\
+Please also store the number of each animal and display the animal type in the cell.textLabel and the animal number in cell.detailLabel\
+\
+Data dictionary: \
+	Zoo\
+		Mammals\
+			cat\
+			dog\
+			bear\
+		Birds\
+			ostrich\
+			robin\
+			sparrow\
+			parrot\
+		Fish\
+			goldfish\
+			bass\
+			shark\
+\
+Data object to be used as each animal instance\
+	animalType\
+	animalAmount}

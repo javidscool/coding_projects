@@ -1,0 +1,4 @@
+<% products.forEach((product) => { %>
+	<a href="/products/<%= product._id %>"><%= product.name %></a> - $<%= product.price %>
+<%  }); %>
+

@@ -1,0 +1,8 @@
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\bin\Debug\Races.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\bin\Debug\Races.pdb
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\Races.Form1.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\Races.Properties.Resources.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\Races.csproj.GenerateResource.Cache
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\Races.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 1\Races\Races\obj\Debug\Races.pdb

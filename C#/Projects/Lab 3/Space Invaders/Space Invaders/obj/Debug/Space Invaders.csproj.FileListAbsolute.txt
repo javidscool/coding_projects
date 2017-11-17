@@ -1,0 +1,16 @@
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\bin\Debug\Space Invaders.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\bin\Debug\Space Invaders.pdb
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space_Invaders.Form1.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.Cache
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.pdb
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.exe
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.pdb
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\bin\Debug\Space Invaders.exe
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\bin\Debug\Space Invaders.pdb
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space_Invaders.Form1.resources
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\Javid\Desktop\C# Shit\First Edition\Lab 3\Space Invaders\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.Cache

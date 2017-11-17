@@ -1,0 +1,8 @@
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\bin\Debug\The Quest.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\bin\Debug\The Quest.pdb
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\The_Quest.Form1.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\The_Quest.Properties.Resources.resources
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\The Quest.csproj.GenerateResource.Cache
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\The Quest.exe
+C:\Users\Javid\Desktop\C# Shit\Lab 2\The Quest\The Quest\obj\Debug\The Quest.pdb
